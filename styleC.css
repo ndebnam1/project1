@@ -27,14 +27,10 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #eeeff2;
+    box-shadow:black 10px 5px 5px;
 }
 
-.box:nth-child(odd) {
-    background-color: #dfe1e7;
+.box:hover{
+   background: radial-gradient(circle,rgba(63,94,251,1) 0%,rgba(252,70,107,1) 100%);
 }
 
-.box:last-child {
-    border: 4px solid black;
-    background-color: #687291;
-    color: white;
-}
